@@ -1,0 +1,1265 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.1931,
+          33.2148
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "name": "Core Scientific (CORZ) \u2014 Denton AI Supercluster \u2014 Denton, TX (Flagship #1)",
+        "city": "Denton, Denton Co., TX (DFW North)",
+        "region": "US \u2014 Texas (ERCOT North)",
+        "lat": 33.2148,
+        "lon": -97.1931,
+        "status": "Under Construction",
+        "category": "Leased Crypto-to-HPC Conversion (12-Yr Lease w/ 2x5-Yr Options; Merger Terminated Oct. 30, 2025)",
+        "mw": 260.0,
+        "mw_unit": "MW Critical IT (~390 MW Gross; Initial Ph1 Active + Ph2/3 Ramping After Transformer/Chiller Delays)",
+        "pue": "1.12\u20131.18 (Direct-to-Chip Liquid Cooling Retrofit)",
+        "hardware": "NVIDIA GB200 NVL72 & GB300 NVL72 (Blackwell Ultra) for OpenAI / Microsoft Frontier Training",
+        "power_utility": "Denton Municipal Electric (DME) / Oncor ERCOT (~390 MW Gross Substation)",
+        "cooling_water": "Closed-loop liquid-to-air chillers ($5M\u2013$8M/MW CRWV-funded retrofit w/ $1.5M/MW rent credit)",
+        "docket_gate": "CORZ Q2'25 10-Q weather/construction & transformer/chiller delays pushed full 250+ MW past YE25 into 2026\u20132027; ERCOT SB 6 & Aug. 3, 2026 queue audit / Sept. 21 TCEQ air-permit freeze on backup generators",
+        "conf": "[HIGH \u2014 CORZ/CRWV S-4/A & Oct. 30, 2025 Form 8-K; MEDIUM \u2014 MoffettNathanson p. 14 & SemiAnalysis June 18, 2026]",
+        "obs_date": "2026-11-08",
+        "notes": "Largest site in the 590 MW IT ($10.075B, 12-yr) Core Scientific portfolio. CORZ stockholders rejected the $9.7B all-stock merger on Oct. 30, 2025, leaving CRWV as lessee funding $5M\u2013$8M/MW of fit-out capex ($101/kW-mo initial cash rent; $152/kW-mo capex-adjusted)."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.8162,
+          33.7485
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "name": "Galaxy Digital (GLXY) \u2014 Helios AI Supercluster \u2014 Afton (Dickens Co.), TX (Flagship #2)",
+        "city": "Afton, Dickens Co., TX (Panhandle / West Texas)",
+        "region": "US \u2014 Texas (ERCOT West CREZ)",
+        "lat": 33.7485,
+        "lon": -100.8162,
+        "status": "Under Construction",
+        "category": "Leased Crypto-to-HPC Campus (15-Yr Lease w/ 2x5-Yr Options; Q2 2026 10-Q Note 8 'Single Site')",
+        "mw": 526.0,
+        "mw_unit": "MW IT Total Contracted (133 MW Phase I Delivered & Rent Commenced Q2 2026; 393 MW Phases II-III Undelivered per Note 8; 800 MW Gross / 1,600 MW ERCOT Approved)",
+        "pue": "1.10\u20131.15 (Closed-Loop Liquid Cooling)",
+        "hardware": "NVIDIA GB200 NVL72, GB300 NVL72 & Vera Rubin NVL72 Clusters",
+        "power_utility": "ERCOT West Panhandle CREZ 345 kV Cottonwood Substation (800 MW Initial + 830 MW Approved Pre-Batch)",
+        "cooling_water": "Closed-loop dry/liquid cooling across 1,500-acre campus (First hall delivered April 2026; full 133 MW Phase I delivered by July 6, 2026)",
+        "docket_gate": "Galaxy July 6, 2026 release confirms 133 MW Phase I delivered & rent commenced in Q2 2026 out of 526 MW IT total contracted. Remaining 393 MW IT (Phases II-III, 2026-2028) is disclosed in Q2 2026 10-Q Note 8 with up to $14.7B max 16-yr rent cap. Helios II holds ERCOT Batch Zero Base Load status (Sept. 8, 2026); unpermitted genset phases face Sept. 21 TCEQ air-permit freeze",
+        "conf": "[HIGH \u2014 Galaxy July 6 & Sept. 8, 2026 Releases & CRWV Q2 2026 10-Q Note 8 (393 MW Undelivered / $14.7B Cap); MEDIUM \u2014 MoffettNathanson p. 18]",
+        "obs_date": "2026-11-08",
+        "notes": "Total contracted capacity is 526 MW IT (800 MW gross) after option exercise: 133 MW Phase I delivered in Q2 2026 + 393 MW Phases II-III undelivered at June 30, 2026 (up to $14.7B cap in Note 8). GAAP rent $188/kW-mo ($152/kW-mo initial cash rent)."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.5271,
+          46.0028
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "name": "Applied Digital (APLD) \u2014 Polaris Forge 1 Campus \u2014 Ellendale, ND (Flagship #3)",
+        "city": "Ellendale, Dickey Co., ND",
+        "region": "US \u2014 Upper Midwest (MISO North)",
+        "lat": 46.0028,
+        "lon": -98.5271,
+        "status": "Under Construction",
+        "category": "Leased Purpose-Built HPC Campus (15-Yr Lease; 100 MW Active June 30, 250 MW RFS Oct. 1, 400 MW Contracted)",
+        "mw": 400.0,
+        "mw_unit": "MW IT Total Contracted (100 MW ELN-02 Active at Q2 2026; 150 MW ELN-03 RFS July 1 & Oct. 1, 2026; 150 MW ELN-04 Expansion)",
+        "pue": "1.08\u20131.12 (Cold-Climate Closed-Loop Liquid Cooling)",
+        "hardware": "NVIDIA GB200 NVL72 & GB300 NVL72 (Financed in part via CCAC VIII / DDTL 4.0 Meta-Backed SPV)",
+        "power_utility": "Montana-Dakota Utilities (MDU) / MISO North (400 MW Substation Scaling to 1,000 MW)",
+        "cooling_water": "Closed-loop direct-to-chip liquid cooling engineered for sub-zero North Dakota winters",
+        "docket_gate": "ND PSC siting approved; first physical building ELN-02 (100 MW) active at June 30, 2026; second physical building ELN-03 (150 MW) hit RFS in two 75 MW phases on July 1 and Oct. 1, 2026 (250 MW RFS by Oct. 2026); 150 MW third building brings campus to 400 MW contracted. March 30, 2026 assignment moved two halls of ELN-02 and all of ELN-03 to CCAC VIII with CRWV springing guarantee",
+        "conf": "[HIGH \u2014 APLD April 1, 2026 Form 8-K/A, Oct. 7, 2026 Earnings Release & CRWV FY25 10-K CF]",
+        "obs_date": "2026-11-08",
+        "notes": "400 MW IT total contracted (~$11B 15-yr TCV across 250 MW initial + 150 MW exercised option). At June 30, 2026, 100 MW (ELN-02) was active and 300 MW was in pipeline (of which 150 MW at ELN-03 reached RFS by Oct. 1, 2026)."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.9702,
+          34.7698
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "name": "Core Scientific (CORZ) \u2014 Dalton AI Campus \u2014 Dalton, GA (Flagship #4)",
+        "city": "Dalton, Whitfield Co., GA",
+        "region": "US \u2014 Southeast (SERC / Georgia Power)",
+        "lat": 34.7698,
+        "lon": -84.9702,
+        "status": "Under Construction",
+        "category": "Leased Crypto-to-HPC Conversion (12-Yr Lease w/ 2x5-Yr Options)",
+        "mw": 175.0,
+        "mw_unit": "MW Critical IT (~260 MW Gross; Phased Delivery 2025\u2013Early 2027)",
+        "pue": "1.12\u20131.16 (Liquid Cooling Retrofit)",
+        "hardware": "NVIDIA H200, GB200 NVL72 & GB300 NVL72 Clusters",
+        "power_utility": "Dalton Utilities / Georgia Power (Integrated Transmission System)",
+        "cooling_water": "Closed-loop liquid cooling retrofit funded by CRWV ($5M\u2013$8M/MW less $1.5M/MW rent credit)",
+        "docket_gate": "Georgia Nov. 3, 2026 election (Gov.-elect Keisha Lance Bottoms & 3-2 Democratic Georgia PSC flip) increases scrutiny on large-load utility tariffs and backup diesel permits for unenergized phases",
+        "conf": "[HIGH \u2014 CORZ/CRWV S-4/A; MEDIUM \u2014 MoffettNathanson p. 14 (175 MW)]",
+        "obs_date": "2026-11-08",
+        "notes": "Second-largest Core Scientific conversion campus (175 MW critical IT)."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3697,
+          35.7479
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "name": "Core Scientific (CORZ) \u2014 Muskogee AI Campus \u2014 Muskogee, OK",
+        "city": "Muskogee, Muskogee Co., OK",
+        "region": "US \u2014 Plains (SPP / OG&E)",
+        "lat": 35.7479,
+        "lon": -95.3697,
+        "status": "Under Construction",
+        "category": "Leased Crypto-to-HPC Conversion (12-Yr Lease w/ 2x5-Yr Options)",
+        "mw": 70.0,
+        "mw_unit": "MW Critical IT (~105 MW Gross; Ramping 2026\u2013Early 2027)",
+        "pue": "1.12\u20131.16 (Liquid Cooling Retrofit)",
+        "hardware": "NVIDIA GB200 / GB300 NVL72 Clusters",
+        "power_utility": "Oklahoma Gas & Electric (OG&E \u2014 SPP)",
+        "cooling_water": "Closed-loop liquid cooling retrofit ($5M\u2013$8M/MW CRWV capex)",
+        "docket_gate": "Oklahoma Corporation Commission large-load generation cost-allocation rules",
+        "conf": "[HIGH \u2014 CORZ/CRWV S-4/A; MEDIUM \u2014 MoffettNathanson p. 14 (~70 MW)]",
+        "obs_date": "2026-11-08",
+        "notes": "Part of the 590 MW Core Scientific conversion portfolio ($10.075B TCV)."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.9241,
+          35.1745
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "name": "Core Scientific (CORZ) \u2014 Marble AI Campus \u2014 Marble, NC",
+        "city": "Marble, Cherokee Co., NC",
+        "region": "US \u2014 Southeast (TVA / Duke Carolinas)",
+        "lat": 35.1745,
+        "lon": -83.9241,
+        "status": "Under Construction",
+        "category": "Leased Crypto-to-HPC Conversion (12-Yr Lease w/ 2x5-Yr Options)",
+        "mw": 70.0,
+        "mw_unit": "MW Critical IT (~103 MW Gross; Ramping 2026\u2013Early 2027)",
+        "pue": "1.12\u20131.15 (Mountain Climate Liquid Cooling)",
+        "hardware": "NVIDIA H200 / GB200 NVL72 Clusters",
+        "power_utility": "Tennessee Valley Authority (TVA) / Blue Ridge Mountain EMC",
+        "cooling_water": "Closed-loop liquid cooling in former industrial facility",
+        "docket_gate": "North Carolina ranks in top 4 US states for local data-center moratorium instruments (SemiAnalysis Sept. 15, 2026); TVA transmission upgrades",
+        "conf": "[HIGH \u2014 CORZ/CRWV S-4/A; MEDIUM \u2014 MoffettNathanson p. 14 (~70 MW)]",
+        "obs_date": "2026-11-08",
+        "notes": "Western North Carolina crypto-to-HPC conversion site (~70 MW IT)."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.7145,
+          30.4015
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "name": "Core Scientific (CORZ) \u2014 Austin Data Center \u2014 Austin, TX",
+        "city": "Austin, Travis Co., TX",
+        "region": "US \u2014 Texas (ERCOT South)",
+        "lat": 30.4015,
+        "lon": -97.7145,
+        "status": "Operational",
+        "category": "Leased Enterprise Data Center (Former HP Facility; 7-Yr Lease Signed March 6, 2024)",
+        "mw": 16.0,
+        "mw_unit": "MW Critical IT ($175M 7-Yr Contract Value; Active Since 2024)",
+        "pue": "1.18\u20131.22",
+        "hardware": "NVIDIA H100 / H200 Clusters",
+        "power_utility": "Austin Energy (ERCOT)",
+        "cooling_water": "Chilled-water & rear-door heat-exchanger cooling",
+        "docket_gate": "Operational grandfathered facility (signed March 6, 2024)",
+        "conf": "[HIGH \u2014 CORZ/CRWV Filings; MEDIUM \u2014 MoffettNathanson Exhibit 10 p. 14 (16 MW / $175M)]",
+        "obs_date": "2026-11-08",
+        "notes": "CoreWeave's first deal with Core Scientific (16 MW in former HP enterprise data center in Austin, TX)."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2908,
+          40.6765
+        ]
+      },
+      "properties": {
+        "id": 8,
+        "name": "Kenilworth Former Merck HQ Campus (35% Unconsolidated JV VIE) \u2014 Kenilworth, NJ",
+        "city": "2000 Galloping Hill Rd, Kenilworth, Union Co., NJ",
+        "region": "US \u2014 Northeast (PJM / PSE&G)",
+        "lat": 40.6765,
+        "lon": -74.2908,
+        "status": "Under Construction",
+        "category": "Unconsolidated JV VIE (35% CRWV / 65% Developer; 15-Yr Uncommenced Lease + Ground Lease)",
+        "mw": 250.0,
+        "mw_unit": "MW Planned Multi-Phase Campus (~50 MW On-Site Cogeneration + PSE&G Grid Expansion; $1.8B VIE MEP Lease)",
+        "pue": "1.10\u20131.14 (Closed-Loop Liquid Cooling + On-Site Cogeneration)",
+        "hardware": "NVIDIA GB200 / GB300 & Vera Rubin Low-Latency NYC Financial Services Cluster (Jane Street $6B Deal Hub)",
+        "power_utility": "On-Site Gas Cogeneration Plant + PSE&G (PJM East)",
+        "cooling_water": "Closed-loop liquid cooling retrofitted into 108-acre former Merck research campus",
+        "docket_gate": "Q2 2026 10-Q Note 3 (p. 15) & Note 8 (p. 24): $44M equity carrying value, $95M milestone guarantee, $37M lease prepayment, up to $160M construction funding exposure, plus $1.8B VIE MEP equipment lease; NJ BPU ratepayer scrutiny after 20% June 2025 PJM bill spike",
+        "conf": "[HIGH \u2014 CRWV Q2 2026 10-Q Notes 3 & 8 (VIE Terms); MEDIUM \u2014 MoffettNathanson p. 24 (Merck Kenilworth)]",
+        "obs_date": "2026-11-08",
+        "notes": "Formed June 2025 (CRWV increased stake from 15% to 35% by Q2 2026). 15 miles from Manhattan; ideal low-latency hub for quantitative trading clients (Jane Street $6B contract)."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.5085,
+          41.6695
+        ]
+      },
+      "properties": {
+        "id": 9,
+        "name": "Decennial Group \u2014 Hammond Digital Crossroads AI Campus \u2014 Hammond, IN",
+        "city": "Hammond, Lake Co., IN (Chicago Metro Border)",
+        "region": "US \u2014 Midwest (NIPSCO / MISO Zone 6)",
+        "lat": 41.6695,
+        "lon": -87.5085,
+        "status": "Under Construction",
+        "category": "Leased Purpose-Built AI Campus (Active Phase 1 + 180 MW Expansion)",
+        "mw": 180.0,
+        "mw_unit": "MW Planned Campus Capacity (Phase 1 Operational + Multi-Building Expansion on Former State Line Generating Site)",
+        "pue": "1.08\u20131.12 (Lake Michigan Closed-Loop / Non-Contact Cooling)",
+        "hardware": "NVIDIA H100, H200 & GB200/GB300 NVL72 Clusters",
+        "power_utility": "Northern Indiana Public Service Co. (NIPSCO \u2014 Former State Line Coal Plant Substation)",
+        "cooling_water": "Closed-loop liquid cooling utilizing existing Lake Michigan intake rights",
+        "docket_gate": "Hammond City Council tax-abatement & IURC NIPSCO large-load generation proceedings (SVP Mike Terlizzi testified on 4\u20135 yr ramp)",
+        "conf": "[MEDIUM \u2014 MoffettNathanson pp. 7, 10, 13, 26 (180 MW Hammond Decennial)]",
+        "obs_date": "2026-11-08",
+        "notes": "Sited on the former State Line Generating Plant on the Chicago border, reusing legacy utility transmission corridors."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3812,
+          37.3695
+        ]
+      },
+      "properties": {
+        "id": 10,
+        "name": "Chirisa / PowerHouse / Blue Owl \u2014 Meadowville AI Campus \u2014 Chester (Chesterfield Co.), VA",
+        "city": "1301 Meadowville Technology Pkwy, Chester, Chesterfield Co., VA",
+        "region": "US \u2014 Mid-Atlantic (Dominion Energy / PJM)",
+        "lat": 37.3695,
+        "lon": -77.3812,
+        "status": "Operational",
+        "category": "Leased AI Campus (30 MW Live + 120 MW Phase 1/2 Expansion w/ Blue Owl / PowerHouse)",
+        "mw": 120.0,
+        "mw_unit": "MW Contracted Campus (Initial ~30\u201350 MW Active + Expansion to 120+ MW; DCSP 78 MW Note 10 Match)",
+        "pue": "1.12\u20131.15 (Liquid Cooled)",
+        "hardware": "NVIDIA H100, H200, GB200 NVL72 & Meta ($21B Deal) / Anthropic Clusters",
+        "power_utility": "Dominion Energy Virginia (PJM \u2014 Meadowville Technology Park Substation)",
+        "cooling_water": "Closed-loop direct-to-chip liquid cooling",
+        "docket_gate": "Virginia SCC large-load stranded-cost tariff ruling; Chesterfield County residential opposition to new gas peakers & substations; Q2 2026 10-Q Note 10 (pp. 31\u201332) 78 MW DCSP VIE ($302M 13% Note Receivable offset by $230M financing/lease obligation + uncapped completion funding commitment)",
+        "conf": "[HIGH \u2014 CRWV Q2 2026 10-Q Note 10 (78 MW DCSP VIE); MEDIUM \u2014 MoffettNathanson pp. 7, 10, 13 (120 MW Chirisa Chester)]",
+        "obs_date": "2026-11-08",
+        "notes": "Anchor East Coast AI cluster in Meadowville Technology Park south of Richmond."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.6989,
+          33.0198
+        ]
+      },
+      "properties": {
+        "id": 11,
+        "name": "Lincoln Rackhouse & Flexential \u2014 Plano AI Cluster Hub \u2014 Plano, TX",
+        "city": "Plano, Collin Co., TX (DFW North)",
+        "region": "US \u2014 Texas (ERCOT North)",
+        "lat": 33.0198,
+        "lon": -96.6989,
+        "status": "Operational",
+        "category": "Leased Tier-1 Colocation & Expansion Campus (Lincoln Rackhouse + Flexential)",
+        "mw": 105.0,
+        "mw_unit": "MW Combined Plano Footprint (~50 MW Initial $1.6B Cluster + ~55 MW Flexential Expansion)",
+        "pue": "1.15\u20131.20",
+        "hardware": "NVIDIA H100, H200 & GB200 NVL72 (Early Flagship 16,000+ H100 Supercluster & Meta Allocation)",
+        "power_utility": "Oncor / ERCOT North",
+        "cooling_water": "High-density chilled water & liquid-to-liquid CDUs",
+        "docket_gate": "Operational ERCOT load; expansion phases subject to Oncor transformer delivery schedules",
+        "conf": "[MEDIUM \u2014 MoffettNathanson pp. 7, 10 & SemiAnalysis March 2024 ($1.6B / 50 MW Plano)]",
+        "obs_date": "2026-11-08",
+        "notes": "Site of CoreWeave's landmark $1.6B NVIDIA H100 cluster in Legacy West / Plano, expanded with Flexential."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.532,
+          42.8485
+        ]
+      },
+      "properties": {
+        "id": 12,
+        "name": "Switch \u2014 Pyramid Campus Expansion \u2014 Caledonia (Grand Rapids), MI",
+        "city": "Caledonia, Kent Co., MI",
+        "region": "US \u2014 Midwest (Consumers Energy / MISO Zone 7)",
+        "lat": 42.8485,
+        "lon": -85.532,
+        "status": "Under Construction",
+        "category": "Leased Purpose-Built Enterprise AI Campus (Switch Pyramid)",
+        "mw": 100.0,
+        "mw_unit": "MW Est. Contracted Allocation (Multi-Phase High-Density Liquid-Cooled Deployment)",
+        "pue": "1.08\u20131.12 (Switch T5 / Liquid Cooling)",
+        "hardware": "NVIDIA GB200 / GB300 NVL72 Clusters",
+        "power_utility": "Consumers Energy (MISO Zone 7 \u2014 100% Renewable Contracted)",
+        "cooling_water": "Closed-loop liquid cooling",
+        "docket_gate": "Michigan MPSC large-load tariff proceedings & high local moratorium activity in Michigan (top 4 state per SemiAnalysis); Switch closed multi-billion-dollar performance LC facility in 2026 for utility interconnections",
+        "conf": "[MEDIUM \u2014 MoffettNathanson p. 10 (Switch Caledonia, MI) & SemiAnalysis June 25, 2026; LOW \u2014 100 MW Est.]",
+        "obs_date": "2026-11-08",
+        "notes": "MoffettNathanson specifically identifies Switch (Caledonia, MI) as one of CoreWeave's active expansion projects."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.73,
+          32.45
+        ]
+      },
+      "properties": {
+        "id": 13,
+        "name": "Unconsolidated Data Center JVs #1 & #2 ($1.7B Equity Commitment) \u2014 US Greenfield Campuses (TX / PA-PJM)",
+        "city": "Undisclosed US Greenfield Sites (Est. West/Central TX & Pennsylvania PJM Corridor)",
+        "region": "US \u2014 Greenfield JV Development (ERCOT / PJM)",
+        "lat": 32.45,
+        "lon": -99.73,
+        "status": "Under Construction",
+        "category": "Two Unconsolidated Development JVs (Q2 2026 10-Q Note 3: $1.7B Equity Commitment; $479M Carrying Value)",
+        "mw": 355.0,
+        "mw_unit": "MW Undelivered Variable-Cost Uncommenced Leases (Q2 2026 10-Q Note 8; Paired w/ Note 3 $1.7B JV Commitment)",
+        "pue": "1.08\u20131.12 (Purpose-Built Liquid Cooled)",
+        "hardware": "NVIDIA GB300 NVL72 & Vera Rubin NVL72 AI Factories (Part of Jan. 2026 NVDA 5 GW Collaboration)",
+        "power_utility": "ERCOT / PJM Utility Substations + Behind-the-Meter Bridging",
+        "cooling_water": "Closed-loop liquid cooling",
+        "docket_gate": "Q2 2026 10-Q Note 3 (p. 15): CRWV committed up to $1.7B ($500M added in Q2; $479M carrying value at June 30, 2026) across two unconsolidated data-center development JVs, plus Note 8's 355 MW undelivered variable-rent leases (2026\u20132028)",
+        "conf": "[HIGH \u2014 CRWV Q2 2026 10-Q Note 3 ($1.7B JVs) & Note 8 (355 MW Undelivered); LOW \u2014 Exact Site Geo]",
+        "obs_date": "2026-11-08",
+        "notes": "Captures the two unconsolidated data-center development JVs disclosed in Note 3 ($1.7B funding commitment in 2026) and the 355 MW of variable construction-cost leases in Note 8."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.2115,
+          36.0685
+        ]
+      },
+      "properties": {
+        "id": 14,
+        "name": "Switch \u2014 The Core Campus (Las Vegas) \u2014 Las Vegas, NV",
+        "city": "Las Vegas, Clark Co., NV",
+        "region": "US \u2014 West (NV Energy / WECC)",
+        "lat": 36.0685,
+        "lon": -115.2115,
+        "status": "Operational",
+        "category": "Leased Tier-5 Colocation Compute & Networking Hub",
+        "mw": 65.0,
+        "mw_unit": "MW Est. Active Compute Capacity (Multi-Hall Deployment)",
+        "pue": "1.12\u20131.18",
+        "hardware": "NVIDIA H100, H200 & GB200 Clusters",
+        "power_utility": "NV Energy (100% Solar + Battery PPAs)",
+        "cooling_water": "Switch patented TSC / closed-loop cooling",
+        "docket_gate": "Operational",
+        "conf": "[MEDIUM \u2014 MoffettNathanson Exhibit 6 p. 7 (Disclosed ***); LOW \u2014 65 MW Est.]",
+        "obs_date": "2026-11-08",
+        "notes": "Core Western US compute hub in Las Vegas."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.475,
+          39.546
+        ]
+      },
+      "properties": {
+        "id": 15,
+        "name": "Switch \u2014 Citadel Campus (Tahoe Reno) \u2014 McCarran, NV",
+        "city": "McCarran (Tahoe Reno Industrial Center), Storey Co., NV",
+        "region": "US \u2014 West (NV Energy / WECC)",
+        "lat": 39.546,
+        "lon": -119.475,
+        "status": "Operational",
+        "category": "Leased Mega-Scale Colocation Campus",
+        "mw": 45.0,
+        "mw_unit": "MW Est. Active Capacity",
+        "pue": "1.10\u20131.15",
+        "hardware": "NVIDIA H100 / H200 / Blackwell Clusters",
+        "power_utility": "NV Energy",
+        "cooling_water": "High-desert closed-loop cooling",
+        "docket_gate": "Operational",
+        "conf": "[MEDIUM \u2014 MoffettNathanson Exhibit 6 p. 7 (Switch Reno *); LOW \u2014 45 MW Est.]",
+        "obs_date": "2026-11-08",
+        "notes": "Second Nevada Switch compute deployment."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.9365,
+          45.5425
+        ]
+      },
+      "properties": {
+        "id": 16,
+        "name": "Digital Realty & Flexential \u2014 Hillsboro Compute Cluster \u2014 Hillsboro, OR",
+        "city": "Hillsboro, Washington Co., OR",
+        "region": "US \u2014 Pacific NW (PGE / WECC)",
+        "lat": 45.5425,
+        "lon": -122.9365,
+        "status": "Operational",
+        "category": "Leased Dual-Operator Compute Hub (Digital Realty + Flexential)",
+        "mw": 60.0,
+        "mw_unit": "MW Est. Combined Active Capacity across DLR & Flexential Hillsboro",
+        "pue": "1.10\u20131.15",
+        "hardware": "NVIDIA H100, H200 & GB200 Clusters",
+        "power_utility": "Portland General Electric (PGE)",
+        "cooling_water": "Closed-loop cooling",
+        "docket_gate": "Oregon Oct. 9, 2026 air/water-discharge permit freeze through July 1, 2027 affects future expansions; existing halls operational",
+        "conf": "[MEDIUM \u2014 MoffettNathanson pp. 7, 28 (DLR #11 Customer at 1.4% ARR + Flexential ***); LOW \u2014 60 MW Est.]",
+        "obs_date": "2026-11-08",
+        "notes": "One of CoreWeave's two disclosed Digital Realty compute deployments (alongside Crawley, UK) plus Flexential Hillsboro."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.524,
+          40.2685
+        ]
+      },
+      "properties": {
+        "id": 17,
+        "name": "QTS \u2014 East Windsor Data Center \u2014 East Windsor, NJ",
+        "city": "East Windsor, Mercer Co., NJ",
+        "region": "US \u2014 Northeast (JCP&L / PJM)",
+        "lat": 40.2685,
+        "lon": -74.524,
+        "status": "Operational",
+        "category": "Leased Wholesale Colocation Facility",
+        "mw": 35.0,
+        "mw_unit": "MW Est. Active Capacity",
+        "pue": "1.15\u20131.20",
+        "hardware": "NVIDIA H100 / H200 / A100 Clusters",
+        "power_utility": "JCP&L (PJM)",
+        "cooling_water": "Chilled-water / liquid cooling",
+        "docket_gate": "Operational",
+        "conf": "[MEDIUM \u2014 MoffettNathanson Exhibit 6 p. 7 (QTS East Windsor **); LOW \u2014 35 MW Est.]",
+        "obs_date": "2026-11-08",
+        "notes": "New Jersey compute site complementing Weehawken and Kenilworth."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0205,
+          40.7695
+        ]
+      },
+      "properties": {
+        "id": 18,
+        "name": "Centersquare \u2014 Weehawken Data Center (LGA1) \u2014 Weehawken, NJ",
+        "city": "Weehawken, Hudson Co., NJ",
+        "region": "US \u2014 Northeast (PSE&G / PJM)",
+        "lat": 40.7695,
+        "lon": -74.0205,
+        "status": "Operational",
+        "category": "Leased Low-Latency Metro Compute Facility",
+        "mw": 20.0,
+        "mw_unit": "MW Est. Active Capacity",
+        "pue": "1.20\u20131.25",
+        "hardware": "NVIDIA A100 / H100 / L40S Low-Latency Inference & VFX",
+        "power_utility": "PSE&G (PJM)",
+        "cooling_water": "Chilled water",
+        "docket_gate": "Operational (CoreWeave's original flagship NYC metro region LGA1)",
+        "conf": "[MEDIUM \u2014 MoffettNathanson Exhibit 6 p. 7 (Centersquare Weehawken **); LOW \u2014 20 MW Est.]",
+        "obs_date": "2026-11-08",
+        "notes": "Ultra-low-latency Hudson River site across from Midtown Manhattan."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9515,
+          41.0455
+        ]
+      },
+      "properties": {
+        "id": 19,
+        "name": "DataBank \u2014 Hudson Valley (EWR2) Data Center \u2014 Orangeburg, NY",
+        "city": "Orangeburg, Rockland Co., NY",
+        "region": "US \u2014 Northeast (Orange & Rockland / NYISO)",
+        "lat": 41.0455,
+        "lon": -73.9515,
+        "status": "Operational",
+        "category": "Leased High-Density Colocation Facility",
+        "mw": 30.0,
+        "mw_unit": "MW Est. Active Capacity",
+        "pue": "1.15\u20131.20",
+        "hardware": "NVIDIA H100 / H200 Clusters",
+        "power_utility": "Orange & Rockland Utilities (NYISO)",
+        "cooling_water": "Closed-loop cooling",
+        "docket_gate": "Operational (grandfathered prior to NY Gov. Hochul's July 2026 1-yr moratorium on new large-scale data centers)",
+        "conf": "[MEDIUM \u2014 MoffettNathanson Exhibit 6 p. 7 (DataBank Orangeburg ***); LOW \u2014 30 MW Est.]",
+        "obs_date": "2026-11-08",
+        "notes": "Disclosed New York metro compute deployment at DataBank Orangeburg."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.6285,
+          40.5365
+        ]
+      },
+      "properties": {
+        "id": 20,
+        "name": "TierPoint \u2014 Breinigsville Data Center (Lehigh Valley) \u2014 Breinigsville, PA",
+        "city": "Breinigsville, Lehigh Co., PA",
+        "region": "US \u2014 Mid-Atlantic (PPL Electric / PJM)",
+        "lat": 40.5365,
+        "lon": -75.6285,
+        "status": "Operational",
+        "category": "Leased Regional Colocation Facility",
+        "mw": 25.0,
+        "mw_unit": "MW Est. Active Capacity",
+        "pue": "1.18\u20131.22",
+        "hardware": "NVIDIA A100 / H100 Clusters",
+        "power_utility": "PPL Electric Utilities (PJM)",
+        "cooling_water": "Chilled water",
+        "docket_gate": "Operational; PA pulled new data centers out of fast-track permitting in 2026",
+        "conf": "[MEDIUM \u2014 MoffettNathanson Exhibit 6 p. 7 (TierPoint Breinigsville **); LOW \u2014 25 MW Est.]",
+        "obs_date": "2026-11-08",
+        "notes": "Eastern Pennsylvania compute site in Lehigh Valley."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.3162,
+          42.6334
+        ]
+      },
+      "properties": {
+        "id": 21,
+        "name": "Markley Group \u2014 Lowell Data Center \u2014 Lowell, MA",
+        "city": "Lowell, Middlesex Co., MA",
+        "region": "US \u2014 New England (National Grid / ISO-NE)",
+        "lat": 42.6334,
+        "lon": -71.3162,
+        "status": "Operational",
+        "category": "Leased Regional Colocation Facility",
+        "mw": 20.0,
+        "mw_unit": "MW Est. Active Capacity",
+        "pue": "1.18\u20131.22",
+        "hardware": "NVIDIA H100 / Inference Clusters",
+        "power_utility": "National Grid (ISO-NE)",
+        "cooling_water": "Chilled water",
+        "docket_gate": "Operational",
+        "conf": "[MEDIUM \u2014 MoffettNathanson Exhibit 6 p. 7 (Markley Lowell **); LOW \u2014 20 MW Est.]",
+        "obs_date": "2026-11-08",
+        "notes": "New England compute hub serving Boston AI/biotech customers."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.1685,
+          42.3215
+        ]
+      },
+      "properties": {
+        "id": 22,
+        "name": "Chirisa \u2014 Volo Data Center (ORD1) \u2014 Volo, IL",
+        "city": "Volo, Lake Co., IL (Chicago North Suburbs)",
+        "region": "US \u2014 Midwest (ComEd / PJM)",
+        "lat": 42.3215,
+        "lon": -88.1685,
+        "status": "Operational",
+        "category": "Leased Enterprise Colocation Facility",
+        "mw": 25.0,
+        "mw_unit": "MW Est. Active Capacity",
+        "pue": "1.18\u20131.22",
+        "hardware": "NVIDIA A100 / H100 Clusters",
+        "power_utility": "ComEd (PJM)",
+        "cooling_water": "Chilled water",
+        "docket_gate": "Operational (One of CoreWeave's earliest Midwest sites)",
+        "conf": "[MEDIUM \u2014 MoffettNathanson Exhibit 6 p. 7 (Chirisa Volo ***); LOW \u2014 25 MW Est.]",
+        "obs_date": "2026-11-08",
+        "notes": "Disclosed Chirisa facility in Lake County, IL."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.203,
+          39.4355
+        ]
+      },
+      "properties": {
+        "id": 23,
+        "name": "CyrusOne \u2014 Cincinnati / Lebanon Data Center \u2014 Lebanon, OH",
+        "city": "Lebanon, Warren Co., OH (Cincinnati Metro)",
+        "region": "US \u2014 Midwest (Duke Energy Ohio / PJM)",
+        "lat": 39.4355,
+        "lon": -84.203,
+        "status": "Operational",
+        "category": "Leased Hyperscale Colocation Campus (3 Ohio Compute Sites)",
+        "mw": 55.0,
+        "mw_unit": "MW Est. Combined Active Capacity across 3 Ohio Sites",
+        "pue": "1.14\u20131.18",
+        "hardware": "NVIDIA H100 / H200 / GB200 Clusters",
+        "power_utility": "Duke Energy Ohio / AEP Ohio (PJM)",
+        "cooling_water": "Closed-loop waterless chillers",
+        "docket_gate": "Operational; 11 Ohio township bans passed Nov. 3, 2026 affect unincorporated greenfield sites",
+        "conf": "[MEDIUM \u2014 MoffettNathanson Exhibit 6 p. 7 (CyrusOne Lebanon ** + 2 OH sites); LOW \u2014 55 MW Est.]",
+        "obs_date": "2026-11-08",
+        "notes": "Represents CoreWeave's three Ohio compute deployments identified in MoffettNathanson Exhibit 6."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.7477,
+          33.7515
+        ]
+      },
+      "properties": {
+        "id": 24,
+        "name": "Flexential & QTS \u2014 Atlanta Metro Compute Cluster \u2014 Douglasville & Suwanee, GA",
+        "city": "Douglasville (Douglas Co.) & Suwanee (Gwinnett Co.), GA",
+        "region": "US \u2014 Southeast (Georgia Power / SERC)",
+        "lat": 33.7515,
+        "lon": -84.7477,
+        "status": "Operational",
+        "category": "Leased Multi-Facility Metro Cluster (4 Georgia Compute Sites: Flexential, QTS & Alpharetta)",
+        "mw": 70.0,
+        "mw_unit": "MW Est. Combined Active Capacity across 4 Atlanta Metro Compute Sites",
+        "pue": "1.15\u20131.20",
+        "hardware": "NVIDIA H100 / H200 / Blackwell Clusters",
+        "power_utility": "Georgia Power (Southern Company)",
+        "cooling_water": "Chilled water & liquid cooling",
+        "docket_gate": "Operational",
+        "conf": "[MEDIUM \u2014 MoffettNathanson Exhibit 6 p. 7 (Flexential Douglasville ***, QTS Suwanee *, Alpharetta); LOW \u2014 70 MW Est.]",
+        "obs_date": "2026-11-08",
+        "notes": "Aggregates CoreWeave's four Atlanta-area colocation compute facilities."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.557,
+          36.624
+        ]
+      },
+      "properties": {
+        "id": 25,
+        "name": "TECfusion \u2014 Clarksville Data Center \u2014 Clarksville, VA",
+        "city": "Clarksville, Mecklenburg Co., VA",
+        "region": "US \u2014 Mid-Atlantic (Dominion Energy / PJM)",
+        "lat": 36.624,
+        "lon": -78.557,
+        "status": "Operational",
+        "category": "Leased Adaptive-Reuse Colocation Facility",
+        "mw": 35.0,
+        "mw_unit": "MW Est. Active Capacity",
+        "pue": "1.15\u20131.20",
+        "hardware": "NVIDIA H100 / H200 Clusters",
+        "power_utility": "Dominion Energy Virginia / Mecklenburg Electric",
+        "cooling_water": "Closed-loop cooling",
+        "docket_gate": "Operational",
+        "conf": "[MEDIUM \u2014 MoffettNathanson Exhibit 6 p. 7 (TECfusion Clarksville **); LOW \u2014 35 MW Est.]",
+        "obs_date": "2026-11-08",
+        "notes": "Southern Virginia high-power compute deployment near the North Carolina border."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.0402,
+          37.5297
+        ]
+      },
+      "properties": {
+        "id": 26,
+        "name": "T5 Data Centers \u2014 Silicon Valley (Newark) Facility \u2014 Newark, CA",
+        "city": "Newark, Alameda Co., CA",
+        "region": "US \u2014 West (PG&E / CAISO)",
+        "lat": 37.5297,
+        "lon": -122.0402,
+        "status": "Operational",
+        "category": "Leased Bay Area Compute Facility",
+        "mw": 25.0,
+        "mw_unit": "MW Est. Active Capacity",
+        "pue": "1.18\u20131.22",
+        "hardware": "NVIDIA H100 / H200 / Inference Clusters for Bay Area AI Labs",
+        "power_utility": "PG&E (CAISO)",
+        "cooling_water": "Chilled water",
+        "docket_gate": "Operational",
+        "conf": "[MEDIUM \u2014 MoffettNathanson Exhibit 6 p. 7 (T5 Newark **); LOW \u2014 25 MW Est.]",
+        "obs_date": "2026-11-08",
+        "notes": "Provides low-latency compute in the San Francisco Bay Area."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.3577,
+          33.4353
+        ]
+      },
+      "properties": {
+        "id": 27,
+        "name": "Phoenix Metro Compute Cluster (2 Sites) \u2014 Mesa / Goodyear, AZ",
+        "city": "Phoenix / Goodyear, Maricopa Co., AZ",
+        "region": "US \u2014 Southwest (APS / SRP \u2014 WECC)",
+        "lat": 33.4353,
+        "lon": -112.3577,
+        "status": "Operational",
+        "category": "Leased Wholesale Colocation Cluster (2 Arizona Sites)",
+        "mw": 50.0,
+        "mw_unit": "MW Est. Combined Active Capacity across 2 Arizona Sites",
+        "pue": "1.15\u20131.20",
+        "hardware": "NVIDIA H100 / H200 / GB200 Clusters",
+        "power_utility": "APS / Salt River Project (WECC)",
+        "cooling_water": "Waterless / closed-loop desert chillers",
+        "docket_gate": "Operational",
+        "conf": "[MEDIUM \u2014 MoffettNathanson Exhibit 6 p. 7 (2 Arizona Compute Sites); LOW \u2014 50 MW Est.]",
+        "obs_date": "2026-11-08",
+        "notes": "Represents CoreWeave's two Phoenix-metro compute facilities."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3151,
+          47.8209
+        ]
+      },
+      "properties": {
+        "id": 28,
+        "name": "Seattle / Lynnwood Compute Cluster (2 Sites) \u2014 Lynnwood, WA",
+        "city": "Lynnwood, Snohomish Co., WA (Seattle North)",
+        "region": "US \u2014 Pacific NW (Snohomish PUD / BPA)",
+        "lat": 47.8209,
+        "lon": -122.3151,
+        "status": "Operational",
+        "category": "Leased Pacific NW Compute Cluster (2 Washington Sites)",
+        "mw": 35.0,
+        "mw_unit": "MW Est. Combined Active Capacity across 2 Washington Sites",
+        "pue": "1.12\u20131.16",
+        "hardware": "NVIDIA H100 / H200 Clusters",
+        "power_utility": "Snohomish County PUD (Hydropower)",
+        "cooling_water": "Free-air & closed-loop cooling",
+        "docket_gate": "Operational",
+        "conf": "[MEDIUM \u2014 MoffettNathanson Exhibit 6 p. 7 (2 Washington Compute Sites); LOW \u2014 35 MW Est.]",
+        "obs_date": "2026-11-08",
+        "notes": "Low-latency proximity to Microsoft Redmond and Seattle AI ecosystem."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1765,
+          51.1325
+        ]
+      },
+      "properties": {
+        "id": 29,
+        "name": "Digital Realty \u2014 Crawley (LGW) UK AI Campus \u2014 Crawley, West Sussex, UK",
+        "city": "Crawley (Gatwick), West Sussex, United Kingdom",
+        "region": "EMEA \u2014 United Kingdom",
+        "lat": 51.1325,
+        "lon": -0.1765,
+        "status": "Operational",
+        "category": "Leased European Sovereign / Enterprise AI Hub (Digital Realty)",
+        "mw": 45.0,
+        "mw_unit": "MW Est. Active Capacity (\u00a31B+ UK AI Investment Program)",
+        "pue": "1.12\u20131.16",
+        "hardware": "NVIDIA H200 & GB200 NVL72 Clusters",
+        "power_utility": "UK Power Networks / National Grid (100% Renewable Matched)",
+        "cooling_water": "Closed-loop liquid cooling",
+        "docket_gate": "Operational (Disclosed in MoffettNathanson p. 28 as one of CRWV's two DLR compute sites)",
+        "conf": "[MEDIUM \u2014 MoffettNathanson pp. 7, 28 (Digital Realty London/Crawley ***); LOW \u2014 45 MW Est.]",
+        "obs_date": "2026-11-08",
+        "notes": "Anchor UK compute deployment south of London near Gatwick Airport."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0045,
+          51.5105
+        ]
+      },
+      "properties": {
+        "id": 30,
+        "name": "Global Switch \u2014 London Docklands Data Center \u2014 London, UK",
+        "city": "East India Dock House, London Docklands, E14, UK",
+        "region": "EMEA \u2014 United Kingdom",
+        "lat": 51.5105,
+        "lon": -0.0045,
+        "status": "Operational",
+        "category": "Leased Ultra-Low-Latency London Compute Hub",
+        "mw": 30.0,
+        "mw_unit": "MW Est. Active Capacity",
+        "pue": "1.18\u20131.22",
+        "hardware": "NVIDIA H100 / H200 Clusters (Financial Services & AI Labs \u2014 Isomorphic Labs, Jane Street)",
+        "power_utility": "UK Power Networks (132 kV Dual-Redundant Substation)",
+        "cooling_water": "Chilled water & liquid cooling",
+        "docket_gate": "Operational",
+        "conf": "[MEDIUM \u2014 MoffettNathanson Exhibit 6 p. 7 (Global Switch London ***); LOW \u2014 30 MW Est.]",
+        "obs_date": "2026-11-08",
+        "notes": "First of CoreWeave's two UK data centers opened in 2024."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.6355,
+          60.6065
+        ]
+      },
+      "properties": {
+        "id": 31,
+        "name": "EcoDataCenter \u2014 Falun Nordic Green AI Campus \u2014 Falun, Sweden",
+        "city": "Falun, Dalarna County, Sweden",
+        "region": "EMEA \u2014 Nordics (SE3)",
+        "lat": 60.6065,
+        "lon": 15.6355,
+        "status": "Operational",
+        "category": "Leased 100%-Renewable Cross-Laminated Timber AI Data Center",
+        "mw": 60.0,
+        "mw_unit": "MW Est. Active & Ramping Capacity",
+        "pue": "1.07\u20131.10 (Nordic Hydro + Waste Heat Reuse for Wood-Pellet Drying)",
+        "hardware": "NVIDIA H200 & GB200 NVL72 Superclusters",
+        "power_utility": "Falu Energi & Vatten / Vattenfall (100% Nordic Hydro & Wind)",
+        "cooling_water": "Closed-loop cooling with waste heat piped to adjacent pellet factory",
+        "docket_gate": "Operational (Highlighted in CRWV FY2025 10-K p. 6 heat-recapture disclosure)",
+        "conf": "[MEDIUM \u2014 MoffettNathanson Exhibit 6 p. 7 (EcoDataCenter Sweden ***) & FY25 10-K; LOW \u2014 60 MW Est.]",
+        "obs_date": "2026-11-08",
+        "notes": "Flagship Nordic sustainable AI cluster with EcoDataCenter."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.9715,
+          58.2685
+        ]
+      },
+      "properties": {
+        "id": 32,
+        "name": "Bulk Infrastructure \u2014 N01 Campus \u2014 Vennesla (Kristiansand), Norway",
+        "city": "Vennesla (near Kristiansand), Agder, Norway",
+        "region": "EMEA \u2014 Nordics (NO2 Hydro)",
+        "lat": 58.2685,
+        "lon": 7.9715,
+        "status": "Operational",
+        "category": "Leased Nordic Hydropower AI Campus",
+        "mw": 65.0,
+        "mw_unit": "MW Est. Active & Ramping Capacity",
+        "pue": "1.06\u20131.10 (100% Norwegian Hydropower)",
+        "hardware": "NVIDIA H200 & GB200 NVL72 Clusters",
+        "power_utility": "Statnett / Glitre Nett (NO2 3.6 GW Hydropower Hub)",
+        "cooling_water": "Nordic ambient & closed-loop liquid cooling",
+        "docket_gate": "Operational (Part of CRWV's $2.2B European expansion across Sweden, Norway, and Spain)",
+        "conf": "[MEDIUM \u2014 CRWV FY25 10-K (6 Countries) & European Expansion Releases; LOW \u2014 65 MW Est.]",
+        "obs_date": "2026-11-08",
+        "notes": "Low-cost Norwegian hydro compute campus."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.045,
+          41.335
+        ]
+      },
+      "properties": {
+        "id": 33,
+        "name": "EdgeConneX \u2014 Barcelona AI Data Center \u2014 Sant Boi de Llobregat (Barcelona), Spain",
+        "city": "Sant Boi de Llobregat, Barcelona, Catalonia, Spain",
+        "region": "EMEA \u2014 Southern Europe",
+        "lat": 41.335,
+        "lon": 2.045,
+        "status": "Operational",
+        "category": "Leased Southern European Compute Hub",
+        "mw": 25.0,
+        "mw_unit": "MW Est. Active Capacity",
+        "pue": "1.15\u20131.20",
+        "hardware": "NVIDIA H100 / H200 / Blackwell Clusters",
+        "power_utility": "Endesa / Red El\u00e9ctrica de Espa\u00f1a",
+        "cooling_water": "Closed-loop cooling",
+        "docket_gate": "Operational",
+        "conf": "[MEDIUM \u2014 MoffettNathanson Exhibit 6 p. 7 (EdgeConneX Barcelona **); LOW \u2014 25 MW Est.]",
+        "obs_date": "2026-11-08",
+        "notes": "First of CoreWeave's two Spanish compute deployments."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.895,
+          42.6885
+        ]
+      },
+      "properties": {
+        "id": 34,
+        "name": "MERLIN Edged \u2014 Barcelona / Arasur AI Campus \u2014 Barcelona & Rivabellosa (\u00c1lava), Spain",
+        "city": "Barcelona (Zona Franca) & Rivabellosa (\u00c1lava / Basque Country), Spain",
+        "region": "EMEA \u2014 Southern Europe",
+        "lat": 42.6885,
+        "lon": -2.895,
+        "status": "Under Construction",
+        "category": "Leased Waterless AI Campus (Active Barcelona Phase + Rivabellosa Expansion)",
+        "mw": 100.0,
+        "mw_unit": "MW Planned Capacity (15 MW Active Barcelona + 85 MW Rivabellosa Basque Expansion)",
+        "pue": "1.10\u20131.15 (Edged Zero-Water Cooling)",
+        "hardware": "NVIDIA GB200 / GB300 NVL72 Superclusters",
+        "power_utility": "Iberdrola / Red El\u00e9ctrica (100% Renewable)",
+        "cooling_water": "Edged Energy zero-water closed-loop thermal system",
+        "docket_gate": "Spanish grid interconnection & Basque regional industrial permits",
+        "conf": "[MEDIUM \u2014 MoffettNathanson pp. 7, 10 (MERLIN Edged Barcelona *** & Rivabellosa Expansion); LOW \u2014 100 MW Est.]",
+        "obs_date": "2026-11-08",
+        "notes": "MoffettNathanson highlights MERLIN Edged (Barcelona and Rivabellosa, Spain) as both an active site and an in-flight expansion."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.6903,
+          44.3894
+        ]
+      },
+      "properties": {
+        "id": 35,
+        "name": "Canadian Sovereign AI Data Center (Cohere Anchor) \u2014 Toronto / Barrie, ON, Canada",
+        "city": "Greater Toronto Area / Barrie, Ontario, Canada",
+        "region": "North America \u2014 Canada (IESO)",
+        "lat": 44.3894,
+        "lon": -79.6903,
+        "status": "Operational",
+        "category": "Leased Canadian Sovereign AI Compute Hub",
+        "mw": 45.0,
+        "mw_unit": "MW Est. Active Capacity (Added in 2025\u20132026; Cohere LLM Training Anchor)",
+        "pue": "1.10\u20131.14 (Cold-Climate Liquid Cooling)",
+        "hardware": "NVIDIA H200 & GB200 NVL72 Clusters",
+        "power_utility": "Hydro One / IESO Ontario (Nuclear & Hydro Grid)",
+        "cooling_water": "Closed-loop cooling",
+        "docket_gate": "Operational (Explicitly highlighted on Slide 21 of Sept. 17, 2026 Form 8-K Ex. 99.2 & FY25 10-K p. 7)",
+        "conf": "[HIGH \u2014 CRWV Sept. 17, 2026 Form 8-K Ex. 99.2 Slide 21 (Cohere Canadian DC) & FY25 10-K]",
+        "obs_date": "2026-11-08",
+        "notes": "Slide 21 of the Sept. 2026 Investor Presentation states: 'CoreWeave's new Canadian data center allows Cohere to train some of its LLMs in Canada.'"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ]
+      },
+      "properties": {
+        "id": 36,
+        "name": "Additional 2026 US & European Active Sites (15 Sites Added in FY25\u20131H26 to Reach 51 Active DCs)",
+        "city": "Multi-Site US (TX, VA, OH, IL, GA) & European Colocation Expansions",
+        "region": "US & Europe \u2014 Distributed Active Fleet",
+        "lat": 38.9072,
+        "lon": -77.0369,
+        "status": "Operational",
+        "category": "Leased Colocation Compute Halls (Bridges 33 Sites in Q1'25 -> 43 in Q4'25 -> 51 Active Sites in Q2'26)",
+        "mw": 224.0,
+        "mw_unit": "MW Active Residual Across Newly Added 2025\u20131H26 Data Centers (Reconciles Active Fleet to Exact 1,500 MW across 51 DCs at June 30, 2026)",
+        "pue": "1.12\u20131.18",
+        "hardware": "NVIDIA H200, GB200 NVL72, GB300 NVL72 & First Vera Rubin NVL72 Validation Cluster (June 2026)",
+        "power_utility": "Multi-Utility Grid Supply (PJM, ERCOT, MISO, WECC, EMEA)",
+        "cooling_water": "Closed-loop liquid cooling",
+        "docket_gate": "Operational as of June 30, 2026 (Sept. 17, 2026 8-K Ex. 99.2 Slide 17: 51 Active Data Centers / 1.5 GW+ Active Power)",
+        "conf": "[HIGH \u2014 Sept. 17, 2026 Form 8-K Ex. 99.2 Slide 17 (51 Active DCs / 1.5 GW Active); LOW \u2014 Per-Site Breakdown]",
+        "obs_date": "2026-11-08",
+        "notes": "CoreWeave expanded from 32 active data centers (360 MW) at YE24 to 43 (850+ MW) at YE25 and 51 (~1,500 MW) at Q2'26."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.8431,
+          35.2271
+        ]
+      },
+      "properties": {
+        "id": 37,
+        "name": "Remaining Uncommenced US & International Contracted Pipeline (~385 MW Residual Across Signed Leases)",
+        "city": "US (TX, VA, ND, NC, PA) & International (>1,000 MW Non-US Contracted Total)",
+        "region": "Global \u2014 Uncommenced Contracted Pipeline (2026\u20132029)",
+        "lat": 35.2271,
+        "lon": -80.8431,
+        "status": "Under Construction",
+        "category": "Signed Uncommenced Data Center Leases (Included in $35.5B Note 8 Uncommenced Leases & 4.2 GW Total)",
+        "mw": 384.0,
+        "mw_unit": "MW Residual Unenergized Contracted Pipeline (Reconciles 1,500 MW Active + 2,700 MW Unenergized = 4,200 MW Total Contracted)",
+        "pue": "1.08\u20131.14 (Target Liquid Cooled)",
+        "hardware": "NVIDIA GB300 NVL72 & Vera Rubin NVL72 Clusters",
+        "power_utility": "ERCOT, PJM, MISO, SPP & European Grids",
+        "cooling_water": "Closed-loop liquid cooling",
+        "docket_gate": "Included within Q2 2026 10-Q Note 8's $35.5B of uncommenced leases (commencing 2026\u20132029, 7\u201316 yr terms) and Aug. 11, 2026 4.2 GW contracted power total",
+        "conf": "[HIGH \u2014 Q2 2026 10-Q Note 8 ($35.5B) & Sept. 17, 2026 8-K Ex. 99.2 (4.2 GW); LOW \u2014 Per-Site Split]",
+        "obs_date": "2026-11-08",
+        "notes": "Reconciles mapped individual under-construction projects to CoreWeave's exact 4,200 MW total contracted power as of August 11, 2026."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0565,
+          40.7895
+        ]
+      },
+      "properties": {
+        "id": 38,
+        "name": "Equinix \u2014 US & Global Direct Connect Backbone (11 of 15 Worldwide Direct Connect PoPs; 7 US Equinix + PH1)",
+        "city": "Secaucus, Ashburn, Chicago, Dallas, San Jose, Atlanta, Los Angeles (7 US Equinix Direct Connect PoPs) + Philadelphia (PH1 Non-DC)",
+        "region": "US \u2014 Non-Additive Network Interconnection Layer",
+        "lat": 40.7895,
+        "lon": -74.0565,
+        "status": "Operational",
+        "category": "Network Interconnection Hub (Non-Additive to Compute MW)",
+        "mw": 15.0,
+        "mw_unit": "MW Network Switching & Peering Footprint (Non-Additive to 1,500 MW Compute Fleet)",
+        "pue": "1.25\u20131.35 (Retail Interconnection Colo)",
+        "hardware": "10G / 100G / 400G Direct Connect Routers, CoreWeave Interconnect (Google Cloud Link) & LOTA Cross-Cloud",
+        "power_utility": "Equinix Multi-Metro Redundant Power",
+        "cooling_water": "Facility colocation cooling",
+        "docket_gate": "Per MoffettNathanson Ex. 6 & Ex. 9 (pp. 10-12), Equinix hosts 11 of CoreWeave's 15 Direct Connect PoPs worldwide (73%); in the US, CoreWeave has 9 Direct Connect deployments across 8 metros (7 Equinix + 2 CoreSite), plus Philadelphia PH1 (non-Direct Connect)",
+        "conf": "[MEDIUM \u2014 MoffettNathanson Exhibit 6 & Exhibit 9 pp. 7, 10\u201312]",
+        "obs_date": "2026-11-08",
+        "notes": "Non-additive networking layer: CoreWeave excludes networking PoPs from its 51 compute data-center count."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.945,
+          52.3125
+        ]
+      },
+      "properties": {
+        "id": 39,
+        "name": "Equinix, Digital Realty & CarrierColo \u2014 European Direct Connect Backbone (AMS17, LD5, FR1, BA1, SK1, B1)",
+        "city": "Amsterdam (DLR AMS17), London (EQIX LD5), Frankfurt (FR1), Barcelona (BA1), Stockholm (SK1), Berlin (CarrierColo B1)",
+        "region": "EMEA \u2014 Non-Additive Network Interconnection Layer",
+        "lat": 52.3125,
+        "lon": 4.945,
+        "status": "Operational",
+        "category": "Network Interconnection Hub (Non-Additive to Compute MW)",
+        "mw": 10.0,
+        "mw_unit": "MW European Network Switching Footprint (Non-Additive to Compute MW)",
+        "pue": "1.25\u20131.30",
+        "hardware": "DE-CIX, Equinix IX & Megaport European Peering Fabric",
+        "power_utility": "European Metro Grid Supply",
+        "cooling_water": "Colocation cooling",
+        "docket_gate": "Operational",
+        "conf": "[MEDIUM \u2014 MoffettNathanson Exhibit 6 p. 7 (Disclosed ***)]",
+        "obs_date": "2026-11-08",
+        "notes": "Non-additive European network interconnection layer."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.2565,
+          34.0485
+        ]
+      },
+      "properties": {
+        "id": 40,
+        "name": "CoreSite, Opus Interactive & Stack \u2014 Western US Network Peering Hubs (LA1, DE1, Hillsboro, Portland)",
+        "city": "Los Angeles (CoreSite LA1), Denver (CoreSite DE1) & Portland/Hillsboro (Opus / Stack)",
+        "region": "US \u2014 Non-Additive Network Interconnection Layer",
+        "lat": 34.0485,
+        "lon": -118.2565,
+        "status": "Operational",
+        "category": "Network Interconnection Hub (Non-Additive to Compute MW)",
+        "mw": 8.0,
+        "mw_unit": "MW Western US Network Peering Footprint (Non-Additive to Compute MW)",
+        "pue": "1.25\u20131.30",
+        "hardware": "ASN 33425 Peering & Direct Connect Gateways",
+        "power_utility": "LADWP / Xcel / PGE",
+        "cooling_water": "Colocation cooling",
+        "docket_gate": "Operational",
+        "conf": "[MEDIUM \u2014 MoffettNathanson Exhibit 6 p. 7 (Disclosed ***)]",
+        "obs_date": "2026-11-08",
+        "notes": "Non-additive Western US network interconnection layer."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.75,
+          33.8
+        ]
+      },
+      "properties": {
+        "id": 41,
+        "name": "Contracted Power Options, Powered Land & LOIs (~1,500 MW Shadow Pipeline)",
+        "city": "Multi-Region US & European Expansion Options, Controlled Powered Land & Signed LOIs",
+        "region": "Global \u2014 Non-Additive Shadow Option Pipeline",
+        "lat": 33.8,
+        "lon": -100.75,
+        "status": "Proposed",
+        "category": "Unexercised Lease Options, Controlled Powered Land & LOIs (Non-Additive to 4.2 GW Contracted)",
+        "mw": 1500.0,
+        "mw_unit": "MW Shadow Pipeline Across Unexercised Options, Controlled Powered Land & Signed LOIs (Beyond 4.2 GW Contracted)",
+        "pue": "1.08\u20131.12 (Target)",
+        "hardware": "Future NVIDIA Vera Rubin & Rubin Ultra Generations",
+        "power_utility": "ERCOT, MISO, PJM & European Grids",
+        "cooling_water": "Closed-loop liquid cooling",
+        "docket_gate": "Subject to ERCOT Batch Zero (Dec. 10/17, 2026 PUCT review), PJM fast-track tariffs, and financing availability",
+        "conf": "[MEDIUM \u2014 MoffettNathanson Aug. 11, 2026 p. 3 (1,500 MW Options/Powered Land/LOIs)]",
+        "obs_date": "2026-11-08",
+        "notes": "Non-additive option pipeline above the 4.2 GW contracted base, bridging toward management's >5 GW (NVDA deal) to 8 GW (2030 target) ambition."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9636,
+          37.3708
+        ]
+      },
+      "properties": {
+        "id": 42,
+        "name": "NVIDIA \u2014 >5.0 GW AI Factory Collaboration & $6.3B Residual Offtake Backstop (Through 2030/2032)",
+        "city": "Santa Clara, CA & Livingston, NJ (Programmatic Framework)",
+        "region": "Global \u2014 Non-Additive Strategic Backstop & 2030 Target",
+        "lat": 37.3708,
+        "lon": -121.9636,
+        "status": "Proposed",
+        "category": "Strategic Supplier Backstop & >5 GW 2030 AI Factory Framework (Non-Additive)",
+        "mw": 5000.0,
+        "mw_unit": "MW 2030 AI Factory Target (Jan. 26, 2026 8-K: $2B NVDA Equity @ $87.20 + Sept. 9, 2025 8-K: $6.3B Unsold Capacity Backstop)",
+        "pue": "N/A (Programmatic Backstop)",
+        "hardware": "NVIDIA Blackwell, Vera Rubin NVL72, Vera CPUs, BlueField Storage, SUNK & Mission Control Reference Stack",
+        "power_utility": "Leverages NVIDIA Balance Sheet to Accelerate Land, Power & Shell Procurement",
+        "cooling_water": "Closed-loop liquid cooling reference design",
+        "docket_gate": "Sept. 9, 2025 8-K ($6.3B residual backstop through April 13, 2032, terminable on 30 days' breach notice or 90-day insolvency); Jan. 26, 2026 8-K (>5 GW by 2030 subject to definitive agreements)",
+        "conf": "[HIGH \u2014 CRWV Form 8-K (Sept. 15, 2025) & Form 8-K Ex. 99.1 (Jan. 26, 2026)]",
+        "obs_date": "2026-11-08",
+        "notes": "Non-additive strategic overlay: NVIDIA invested $2.0B at $87.20/sh in Jan. 2026 and committed $6.3B to absorb unsold residual capacity through April 2032."
+      }
+    }
+  ]
+}
